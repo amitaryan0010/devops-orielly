@@ -12,10 +12,10 @@ jobs:
         run: echo Hello World! This is the first job
         
    secondjob:
-       runs-on: self-hosted
-       steps:
-         - name: secondjob script
-           shell: bash
-           run: |
-             echo this is second job
-             echo and this is multiline script
+     runs-on: self-hosted
+     steps:
+       - name: secondjob script
+         shell: bash
+         run: |
+           echo this is second job
+           echo and this is multiline script
