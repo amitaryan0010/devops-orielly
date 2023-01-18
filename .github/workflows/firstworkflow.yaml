@@ -15,7 +15,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: secondjob script
-        shell: bash
+        shell: cmd
         run: |
           echo this is second job
           echo and this is multiline script
