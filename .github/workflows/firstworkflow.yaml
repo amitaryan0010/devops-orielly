@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: firstjob script
-        shell: bash
+        shell: cmd
         run: echo Hello World! This is the first job
         
   secondjob:
